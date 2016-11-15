@@ -1,0 +1,31 @@
+{
+  "name": "tcouchdbbuildercli",
+  "version": "1.0.0",
+  "description": "read, update and manage couchdb design documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasNickel/tcouchdbbuildercli.git"
+  },
+  "keywords": [
+    "couchdb",
+    "database",
+    "cli",
+    "tobias"
+  ],
+  "author": "Tobias Nickel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TobiasNickel/tcouchdbbuildercli/issues"
+  },
+  "homepage": "https://github.com/TobiasNickel/tcouchdbbuildercli#readme",
+  "dependencies": {
+    "couchdb-builder": "^0.1.0",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "underscore.string": "^3.3.4"
+  }
+}
