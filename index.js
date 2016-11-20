@@ -9,11 +9,11 @@ var request = require('request-promise').defaults({
         try {
             data = JSON.parse(data);
         } catch (e) {
-            console.log(e)
+            console.log(e);
         }
         return data;
     }
-})
+});
 
 
 var path = './exampleDocs/';
@@ -51,7 +51,6 @@ dir.forEach((dir) => {
         } else {
             console.log(s.rpad(dir, nameCollumnWidth), ' need an update');
             newDoc._rev = _rev;
-            console.log(_rev)
             return request.put({
                 url: docPath,
                 body: JSON.stringify(newDoc)
